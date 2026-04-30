@@ -63,10 +63,10 @@ Question 9:
 $ git branch -avv
   bug-fix-revert                92f8688 [origin/bug-fix-revert] fix: document decimal input support
   bug-fix-typo                  3c83b38 [origin/bug-fix-typo] fix: clarify simple interest readme
-* main                          bd3de6f [origin/main] fix: make calculator instructions explicit
+* main                          5efd8a6 [origin/main] docs: update submission evidence for upstream pull request
   remotes/origin/HEAD           -> origin/main
   remotes/origin/bug-fix-revert 92f8688 fix: document decimal input support
   remotes/origin/bug-fix-typo   3c83b38 fix: clarify simple interest readme
-  remotes/origin/main           bd3de6f fix: make calculator instructions explicit
+  remotes/origin/main           5efd8a6 docs: update submission evidence for upstream pull request
   remotes/upstream/HEAD         -> upstream/main
   remotes/upstream/main         ad95b0a Create close_pr.yml
