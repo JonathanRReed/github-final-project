@@ -1,0 +1,18 @@
+$ curl -s https://api.github.com/repos/JonathanRReed/mcino-Introduction-to-Git-and-GitHub/pulls/1 | jq '{html_url, state, title, head: {ref: .head.ref, repo: {full_name: .head.repo.full_name}}, base: {ref: .base.ref, repo: {full_name: .base.repo.full_name}}}'
+{
+  "html_url": "https://github.com/JonathanRReed/mcino-Introduction-to-Git-and-GitHub/pull/1",
+  "state": "open",
+  "title": "fix: document decimal input support",
+  "head": {
+    "ref": "bug-fix-revert",
+    "repo": {
+      "full_name": "JonathanRReed/mcino-Introduction-to-Git-and-GitHub"
+    }
+  },
+  "base": {
+    "ref": "main",
+    "repo": {
+      "full_name": "JonathanRReed/mcino-Introduction-to-Git-and-GitHub"
+    }
+  }
+}
