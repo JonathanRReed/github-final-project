@@ -39,10 +39,10 @@ Fast-forward
 
 
 Question 8:
-$ curl -s https://api.github.com/repos/JonathanRReed/mcino-Introduction-to-Git-and-GitHub/pulls/1 | jq '{html_url, state, title, head: {ref: .head.ref, repo: {full_name: .head.repo.full_name}}, base: {ref: .base.ref, repo: {full_name: .base.repo.full_name}}}'
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/7315 | jq '{html_url, state, title, head: {ref: .head.ref, repo: {full_name: .head.repo.full_name}}, base: {ref: .base.ref, repo: {full_name: .base.repo.full_name}}}'
 {
-  "html_url": "https://github.com/JonathanRReed/mcino-Introduction-to-Git-and-GitHub/pull/1",
-  "state": "open",
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/7315",
+  "state": "closed",
   "title": "fix: document decimal input support",
   "head": {
     "ref": "bug-fix-revert",
@@ -53,7 +53,7 @@ $ curl -s https://api.github.com/repos/JonathanRReed/mcino-Introduction-to-Git-a
   "base": {
     "ref": "main",
     "repo": {
-      "full_name": "JonathanRReed/mcino-Introduction-to-Git-and-GitHub"
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
     }
   }
 }
@@ -63,10 +63,10 @@ Question 9:
 $ git branch -avv
   bug-fix-revert                92f8688 [origin/bug-fix-revert] fix: document decimal input support
   bug-fix-typo                  3c83b38 [origin/bug-fix-typo] fix: clarify simple interest readme
-* main                          3c83b38 [origin/main] fix: clarify simple interest readme
+* main                          bd3de6f [origin/main] fix: make calculator instructions explicit
   remotes/origin/HEAD           -> origin/main
   remotes/origin/bug-fix-revert 92f8688 fix: document decimal input support
   remotes/origin/bug-fix-typo   3c83b38 fix: clarify simple interest readme
-  remotes/origin/main           3c83b38 fix: clarify simple interest readme
+  remotes/origin/main           bd3de6f fix: make calculator instructions explicit
   remotes/upstream/HEAD         -> upstream/main
   remotes/upstream/main         ad95b0a Create close_pr.yml

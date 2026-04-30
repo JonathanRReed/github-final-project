@@ -1,7 +1,7 @@
-$ curl -s https://api.github.com/repos/JonathanRReed/mcino-Introduction-to-Git-and-GitHub/pulls/1 | jq '{html_url, state, title, head: {ref: .head.ref, repo: {full_name: .head.repo.full_name}}, base: {ref: .base.ref, repo: {full_name: .base.repo.full_name}}}'
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/7315 | jq '{html_url, state, title, head: {ref: .head.ref, repo: {full_name: .head.repo.full_name}}, base: {ref: .base.ref, repo: {full_name: .base.repo.full_name}}}'
 {
-  "html_url": "https://github.com/JonathanRReed/mcino-Introduction-to-Git-and-GitHub/pull/1",
-  "state": "open",
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/7315",
+  "state": "closed",
   "title": "fix: document decimal input support",
   "head": {
     "ref": "bug-fix-revert",
@@ -12,7 +12,7 @@ $ curl -s https://api.github.com/repos/JonathanRReed/mcino-Introduction-to-Git-a
   "base": {
     "ref": "main",
     "repo": {
-      "full_name": "JonathanRReed/mcino-Introduction-to-Git-and-GitHub"
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
     }
   }
 }
